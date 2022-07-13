@@ -20,6 +20,7 @@ export const Container = styled.div.attrs((props: PropTypeRg) => ({
   justify-content: flex-end;
 
   > svg {
+    z-index: 1;
     right: -30px;
     position: fixed;
     margin: 26.4px 50px 0;

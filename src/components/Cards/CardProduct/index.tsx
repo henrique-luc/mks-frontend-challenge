@@ -1,7 +1,10 @@
 import { ListContainer } from "./style";
 import { RiShoppingBag3Line } from "react-icons/ri";
+import { useSelector } from "react-redux";
 
 export const ListProducts = () => {
+  //const { products } = useSelector(({ store }: any) => store);
+
   return (
     <ListContainer>
       <li className="card_container">
@@ -23,7 +26,6 @@ export const ListProducts = () => {
           </button>
         </section>
       </li>
-
       <li className="card_container">
         <figure>
           <img src="apple-watch.png" alt="" />
