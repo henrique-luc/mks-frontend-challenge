@@ -1,8 +1,14 @@
+import { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
+import { Sidebar } from "../Sidebar";
 import { Button } from "./Button";
 import { HeaderContainer } from "./style";
 
 export const Header = () => {
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
+
   return (
     <HeaderContainer>
       <div className="header_div-container">
@@ -11,8 +17,11 @@ export const Header = () => {
           <h3>Sistemas</h3>
         </div>
         <div>
-          <Button icon={FaShoppingCart}>0</Button>
+          <Button icon={FaShoppingCart} onClick={() => showSidebar()}>
+            0
+          </Button>
         </div>
+        {sidebar && <Sidebar active={setSidebar} />}
       </div>
     </HeaderContainer>
   );

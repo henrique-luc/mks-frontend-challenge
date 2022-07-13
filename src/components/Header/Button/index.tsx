@@ -9,10 +9,11 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export const Button: React.FC<ButtonProps> = ({
   icon: Icon,
   children,
+  onClick,
   ...rest
-}) => {
+}: any) => {
   return (
-    <ButtonContainer>
+    <ButtonContainer onClick={onClick}>
       {Icon && <Icon color="#000" size={17} />}
       <p>{children}</p>
     </ButtonContainer>

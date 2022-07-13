@@ -1,13 +1,16 @@
 import { ListProducts } from "../../components/Cards/CardProduct";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { StoreComponent } from "./style";
 
 export const Store = () => {
   return (
-    <div>
+    <StoreComponent>
       <Header />
-      <ListProducts />
+      <section className="container_list">
+        <ListProducts />
+      </section>
       <Footer />
-    </div>
+    </StoreComponent>
   );
 };

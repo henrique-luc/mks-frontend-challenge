@@ -10,13 +10,149 @@ export const ListProducts = () => {
           <figcaption>apple-watch</figcaption>
         </figure>
         <section className="card_container-info">
-          <section>
+          <section className="card_container-info-title">
             <h3>Apple Watch Series 4 Gps</h3>
-            <p>R$399</p>
+            <div>
+              <p>R$399</p>
+            </div>
           </section>
           <small>Redesigned from scratch and completely revised.</small>
           <button>
-            <RiShoppingBag3Line />
+            <RiShoppingBag3Line size={19} />
+            <p>COMPRAR</p>
+          </button>
+        </section>
+      </li>
+
+      <li className="card_container">
+        <figure>
+          <img src="apple-watch.png" alt="" />
+          <figcaption>apple-watch</figcaption>
+        </figure>
+        <section className="card_container-info">
+          <section className="card_container-info-title">
+            <h3>Apple Watch Series 4 Gps</h3>
+            <div>
+              <p>R$399</p>
+            </div>
+          </section>
+          <small>Redesigned from scratch and completely revised.</small>
+          <button>
+            <RiShoppingBag3Line size={19} />
+            <p>COMPRAR</p>
+          </button>
+        </section>
+      </li>
+      <li className="card_container">
+        <figure>
+          <img src="apple-watch.png" alt="" />
+          <figcaption>apple-watch</figcaption>
+        </figure>
+        <section className="card_container-info">
+          <section className="card_container-info-title">
+            <h3>Apple Watch Series 4 Gps</h3>
+            <div>
+              <p>R$399</p>
+            </div>
+          </section>
+          <small>Redesigned from scratch and completely revised.</small>
+          <button>
+            <RiShoppingBag3Line size={19} />
+            <p>COMPRAR</p>
+          </button>
+        </section>
+      </li>
+      <li className="card_container">
+        <figure>
+          <img src="apple-watch.png" alt="" />
+          <figcaption>apple-watch</figcaption>
+        </figure>
+        <section className="card_container-info">
+          <section className="card_container-info-title">
+            <h3>Apple Watch Series 4 Gps</h3>
+            <div>
+              <p>R$399</p>
+            </div>
+          </section>
+          <small>Redesigned from scratch and completely revised.</small>
+          <button>
+            <RiShoppingBag3Line size={19} />
+            <p>COMPRAR</p>
+          </button>
+        </section>
+      </li>
+      <li className="card_container">
+        <figure>
+          <img src="apple-watch.png" alt="" />
+          <figcaption>apple-watch</figcaption>
+        </figure>
+        <section className="card_container-info">
+          <section className="card_container-info-title">
+            <h3>Apple Watch Series 4 Gps</h3>
+            <div>
+              <p>R$399</p>
+            </div>
+          </section>
+          <small>Redesigned from scratch and completely revised.</small>
+          <button>
+            <RiShoppingBag3Line size={19} />
+            <p>COMPRAR</p>
+          </button>
+        </section>
+      </li>
+      <li className="card_container">
+        <figure>
+          <img src="apple-watch.png" alt="" />
+          <figcaption>apple-watch</figcaption>
+        </figure>
+        <section className="card_container-info">
+          <section className="card_container-info-title">
+            <h3>Apple Watch Series 4 Gps</h3>
+            <div>
+              <p>R$399</p>
+            </div>
+          </section>
+          <small>Redesigned from scratch and completely revised.</small>
+          <button>
+            <RiShoppingBag3Line size={19} />
+            <p>COMPRAR</p>
+          </button>
+        </section>
+      </li>
+      <li className="card_container">
+        <figure>
+          <img src="apple-watch.png" alt="" />
+          <figcaption>apple-watch</figcaption>
+        </figure>
+        <section className="card_container-info">
+          <section className="card_container-info-title">
+            <h3>Apple Watch Series 4 Gps</h3>
+            <div>
+              <p>R$399</p>
+            </div>
+          </section>
+          <small>Redesigned from scratch and completely revised.</small>
+          <button>
+            <RiShoppingBag3Line size={19} />
+            <p>COMPRAR</p>
+          </button>
+        </section>
+      </li>
+      <li className="card_container">
+        <figure>
+          <img src="apple-watch.png" alt="" />
+          <figcaption>apple-watch</figcaption>
+        </figure>
+        <section className="card_container-info">
+          <section className="card_container-info-title">
+            <h3>Apple Watch Series 4 Gps</h3>
+            <div>
+              <p>R$399</p>
+            </div>
+          </section>
+          <small>Redesigned from scratch and completely revised.</small>
+          <button>
+            <RiShoppingBag3Line size={19} />
             <p>COMPRAR</p>
           </button>
         </section>
