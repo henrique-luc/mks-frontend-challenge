@@ -23,6 +23,7 @@ export const Container = styled.div.attrs((props: PropTypeRg) => ({
     right: -30px;
     position: fixed;
     margin: 26.4px 50px 0;
+    cursor: pointer;
   }
 
   @keyframes showSidebar {
@@ -50,4 +51,12 @@ export const Container = styled.div.attrs((props: PropTypeRg) => ({
       }
     }
   }
+`;
+
+export const Content = styled.div`
+  width: 100%;
+  height: 100%;
+  margin-top: 26.4px;
+  display: flex;
+  flex-direction: column;
 `;

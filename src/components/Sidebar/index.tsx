@@ -1,7 +1,7 @@
 import { AiFillCloseCircle } from "react-icons/ai";
-import { Container } from "./style";
+import { Container, Content } from "./style";
 
-export const Sidebar = ({ active }: any) => {
+export const Sidebar = ({ active, children }: any) => {
   const CloseSidebar = () => {
     active(false);
   };
@@ -9,6 +9,7 @@ export const Sidebar = ({ active }: any) => {
   return (
     <Container sidebar={active}>
       <AiFillCloseCircle onClick={CloseSidebar} size={30} />
+      <Content>{children}</Content>
     </Container>
   );
 };

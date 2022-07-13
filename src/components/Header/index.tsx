@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import { Sidebar } from "../Sidebar";
+import { Cart } from "../Cart";
 import { Button } from "./Button";
 import { HeaderContainer } from "./style";
 
@@ -21,7 +21,7 @@ export const Header = () => {
             0
           </Button>
         </div>
-        {sidebar && <Sidebar active={setSidebar} />}
+        {sidebar && <Cart active={setSidebar} />}
       </div>
     </HeaderContainer>
   );
