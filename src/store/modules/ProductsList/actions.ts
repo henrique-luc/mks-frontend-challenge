@@ -1,6 +1,5 @@
 import { ALL_PRODUCTS } from "./actionTypes";
 
-export const allProd = (products: any) => ({
+export const allProd = () => ({
   type: ALL_PRODUCTS,
-  products,
 });
